@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3d</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/core.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="content">
+            <h1 class="title">3d <span>image</span></h1>
+
+            <div class="card">
+                <div class="card__item">
+                    <model-viewer class="card__model" loading='eager' style="background-color: rgb(212, 212, 212);" shadow-intensity="1" src="./models/viking_book/scene.gltf" autoplay auto-rotate camera-controls ar ios-src="./models/viking_book/scene.gltf"></model-viewer>
+                    <span class="card__text">
+                        rotate <span>me</span>
+                    </span>
+                </div>
+                <div class="card__item">
+                    <model-viewer class="card__model" loading='eager' style="background-color: rgb(18, 18, 18);" shadow-intensity="1" src="./models/viking_hut/scene.gltf" autoplay auto-rotate camera-controls ar ios-src="./models/viking_hut/scene.gltf"></model-viewer>
+                    <span class="card__text">
+                        rotate <span>me</span>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js"></script>
+</html>
