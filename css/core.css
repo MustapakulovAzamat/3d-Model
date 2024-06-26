@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Syne', sans-serif;
+    font-weight: 800;
+}
+
+:root {
+    --index: 1vh + 1vw;
+    --pr-color: #fff;
+    --second-color: #0a0a0a;
+    --cubic: cubic-bezier(.9, 0, .1, 1)
+}
+
+.title {
+    text-align: center;
+    font-size: calc(var(--index) * 5);
+    text-transform: uppercase;
+    color: var(--pr-color);
+}
